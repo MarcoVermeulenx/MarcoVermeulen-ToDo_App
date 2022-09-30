@@ -16,9 +16,9 @@ window.addEventListener("load", () => {
 
     const todo = {
       content: e.target.elements.content.value,
-      category: e.currentTarget.elements.category.value,
+      category: e.target.elements.category.value,
       done: false,
-      createAt: new Date().getTime(),
+      createdAt: new Date().getTime(),
     };
 
     todos.push(todo);
